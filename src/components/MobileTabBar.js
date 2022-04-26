@@ -19,26 +19,6 @@ export default function MobileTabBar(props) {
             <i className="bi-pin-angle-fill me-2"></i>
             <div>Posts</div>
           </NavLinkS>
-          <NavLinkS to="/statistics">
-            <i className="bi-funnel-fill me-2"></i>
-            <div>Statistics</div>
-          </NavLinkS>
-          <NavLinkS to="/archive">
-            <i className="bi-collection-fill me-2"></i>
-            <div>Archive</div>
-          </NavLinkS>
-          <NavLinkS to="/users">
-            <i className="bi-person-lines-fill me-2"></i>
-            <div>Users</div>
-          </NavLinkS>
-          <NavLinkS to="/service-status">
-            <i className="bi-info-circle-fill me-2"></i>
-            <div>Service Status</div>
-          </NavLinkS>
-          <NavLinkS to="/settings">
-            <i className="bi-gear-fill me-2"></i>
-            <div>Settings</div>
-          </NavLinkS>
         </div>
       </nav>
     </>

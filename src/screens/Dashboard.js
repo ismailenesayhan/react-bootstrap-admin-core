@@ -1,22 +1,13 @@
 import React from 'react'
-import { useAlert } from "react-alert";
 import PageTitle from '../components/PageTitle'
 
 export default function Dashboard() {
-    const alert = useAlert();
     return (
       <>
         <div className="mt-1 d-flex justify-content-between align-items-baseline">
           <PageTitle title="Dashboard" desc="Welcome, İsmail Enes Ayhan" />
           <div className="bg-white rounded-lg shadow-sm p-3 ">
-            <button
-            className="btn btn-secondary"
-              onClick={() => {
-                alert.error("Oh look, an alert!");
-              }}
-            >
-              Bildirimi Göster
-            </button>
+           
           </div>
         </div>
         <div className="screenBody">

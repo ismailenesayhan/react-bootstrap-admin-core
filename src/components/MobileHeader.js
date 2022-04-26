@@ -1,21 +1,8 @@
-import React
-// , { useState } 
-from "react";
-import { Link } from "react-router-dom";
-// import styled from "styled-components";
+import React from "react";
 
 import Logo from "../assets/logo.svg";
 
 export default function MobileHeader(props) {
-  // const [isOpen, setIsOpen] = useState(false);
-
-  // function handleMenuChance(e) {
-  //   if (e) {
-  //     setIsOpen(true);
-  //   } else {
-  //     setIsOpen(false);
-  //   }
-  // }
 
   return (
     <>
@@ -26,18 +13,6 @@ export default function MobileHeader(props) {
             <h6 className="mb-0">E-Seller Assist 21</h6>
           </div>
         </div>
-
-        <nav className="nav mobileNavBar">
-          <Link to="/" className="nav-link">
-            Dashboard
-          </Link>
-          <Link to="/" className="nav-link">
-            Dashboard
-          </Link>
-          <Link to="/" className="nav-link">
-            Dashboard
-          </Link>
-        </nav>
       </div>
     </>
   );
